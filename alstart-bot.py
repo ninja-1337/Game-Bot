@@ -29,8 +29,14 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 ##Listen for Keys
 def on_press(key):
-    print('{0} pressed'.format(
-        key))
+	if({0}=='g'):
+		print("pressed G")
+	else:
+		print('{0} pressed'.format(key))
+
+
+
+
 
 def on_release(key):
     print('{0} release'.format(
