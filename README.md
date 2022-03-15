@@ -1,1 +1,1 @@
-# Gme-Bot
+# Game-Bot
